@@ -47,15 +47,25 @@ top of that foundation.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — Auto-Configuration & Starters
-- **Chapter 2** — Externalized Configuration & Profiles
-- **Chapter 3** — Building REST Controllers
-- **Chapter 4** — Validation & Exception Handling
-- **Chapter 5** — Spring Data Basics & Transactions Deep Dive
-- **Chapter 6** — Spring Security Basics
-- **Chapter 7** — Actuator, Logging, Production Configuration
-- **Chapter 8** — Testing Spring Boot Applications
-- **Final Assessment, Spring Boot Mock Interview Round, Capstone Project**
+- **Chapter 1** — Auto-Configuration & Starters ✅ `chapter-01-auto-configuration-starters.md`
+- **Chapter 2** — Externalized Configuration & Profiles ✅ `chapter-02-externalized-configuration-profiles.md`
+- **Chapter 3** — Building REST Controllers ✅ `chapter-03-building-rest-controllers.md`
+- **Chapter 4** — Validation & Exception Handling ✅ `chapter-04-validation-exception-handling.md`
+- **Chapter 5** — Spring Data Basics & Transactions Deep Dive ✅ `chapter-05-spring-data-transactions.md`
+- **Chapter 6** — Spring Security Basics ✅ `chapter-06-spring-security-basics.md`
+- **Chapter 7** — Actuator, Logging, Production Configuration ✅ `chapter-07-actuator-logging-production.md`
+- **Chapter 8** — Testing Spring Boot Applications ✅ `chapter-08-testing-spring-boot-applications.md`
+- **Final Assessment, Spring Boot Mock Interview Round, Capstone Project** ✅ `final-assessment-mock-interview-project.md`
+
+**BOOK 4 STATUS: COMPLETE.** All 8 chapters plus closing materials are
+written to the full bilingual (Telugu + English) depth template. Special
+emphasis throughout on demystifying "magic" (auto-configuration's
+`@Conditional` mechanics, `@Transactional`'s default rollback rule, the
+self-invocation trap reappearing for both `@Transactional` and
+`@PreAuthorize`) and on real production gotchas (unsecured Actuator
+endpoints, H2-vs-real-database test fidelity, entity-leakage bugs).
+
+Next in the program: **Book 5 — REST APIs + Web Services** (`java-mastery-program/book-05-rest-apis-web-services/`).
 
 ## SCOPE NOTE
 
