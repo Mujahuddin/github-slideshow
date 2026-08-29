@@ -51,15 +51,15 @@ without requiring broker-specific knowledge.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — Messaging Fundamentals: Why Asynchronous Communication
-- **Chapter 2** — Kafka Architecture: Topics, Partitions, Offsets
-- **Chapter 3** — Kafka Producers & Consumers, Consumer Groups
-- **Chapter 4** — Kafka Delivery Semantics & Reliability
-- **Chapter 5** — RabbitMQ Architecture: Exchanges, Queues, Routing
-- **Chapter 6** — RabbitMQ Reliability: ACK/NACK, Dead-Letter Queues, Retry
-- **Chapter 7** — JMS & Pub/Sub Models
-- **Chapter 8** — Kafka vs RabbitMQ: Choosing the Right Tool
-- **Final Assessment, Messaging Mock Interview Round, Capstone Project**
+- ✅ **Chapter 1** — [Messaging Fundamentals: Why Asynchronous Communication](./chapter-01-messaging-fundamentals.md)
+- ✅ **Chapter 2** — [Kafka Architecture: Topics, Partitions, Offsets](./chapter-02-kafka-architecture-topics-partitions-offsets.md)
+- ✅ **Chapter 3** — [Kafka Producers & Consumers, Consumer Groups](./chapter-03-kafka-producers-consumers-groups.md)
+- ✅ **Chapter 4** — [Kafka Delivery Semantics & Reliability](./chapter-04-kafka-delivery-semantics-reliability.md)
+- ✅ **Chapter 5** — [RabbitMQ Architecture: Exchanges, Queues, Routing](./chapter-05-rabbitmq-architecture-exchanges-routing.md)
+- ✅ **Chapter 6** — [RabbitMQ Reliability: ACK/NACK, Dead-Letter Queues, Retry](./chapter-06-rabbitmq-reliability-ack-dlq-retry.md)
+- ✅ **Chapter 7** — [JMS & Pub/Sub Models](./chapter-07-jms-pubsub-models.md)
+- ✅ **Chapter 8** — [Kafka vs RabbitMQ: Choosing the Right Tool](./chapter-08-kafka-vs-rabbitmq-choosing.md)
+- ✅ **[Final Assessment, Messaging Mock Interview Round, Capstone Project](./final-assessment-mock-interview-project.md)**
 
 ## SCOPE NOTE
 
@@ -73,4 +73,17 @@ consumer needs idempotency-tracking storage.
 
 ---
 
-*(Chapters below are added incrementally — see each chapter file in this directory.)*
+## BOOK 9 STATUS: COMPLETE
+
+All 8 chapters, the final assessment, mock interview round, and
+capstone project are written. This book opened up the message broker
+as a mechanism Book 8's Outbox pattern and choreographed Sagas had
+already assumed: temporal decoupling and delivery semantics as first
+principles, Kafka's retained-log architecture (topics/partitions/
+offsets, consumer groups, delivery reliability), RabbitMQ's
+consume-and-delete queue architecture (exchanges/routing, ACK/NACK,
+dead-letter/retry patterns), JMS/cloud pub-sub as portable abstractions
+over these same ideas, and a workload-driven framework for choosing
+between them.
+
+**Next in the program: Book 10 — MongoDB + Redis + NoSQL.**
