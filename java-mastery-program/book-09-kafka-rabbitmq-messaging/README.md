@@ -1,0 +1,76 @@
+# BOOK 9 — KAFKA + RABBITMQ + MESSAGING
+## Asynchronous, Event-Driven Communication (Telugu + English)
+
+---
+
+## COVER
+
+**Program:** Java Backend / Microservices / Cloud / AI Engineering — Complete Mastery Series
+**Book 9 of 25:** Message Brokers, Kafka Internals, RabbitMQ Internals, Delivery Semantics, JMS/Pub-Sub
+
+## LEARNING OBJECTIVES
+
+By the end of this book you will be able to:
+
+- Explain why asynchronous, broker-mediated communication solves problems
+  synchronous Feign calls (Book 8) cannot, and where it introduces new
+  ones.
+- Reason precisely about Kafka's topic/partition/offset model and how it
+  determines ordering and scalability.
+- Design consumer groups correctly, including rebalancing behavior and
+  its failure modes.
+- Explain delivery semantics (at-most-once, at-least-once,
+  exactly-once) concretely, in terms of what a producer/consumer must
+  actually do to achieve each one.
+- Design RabbitMQ topologies using exchanges, bindings, and routing keys
+  for real fan-out, routing, and topic-based use cases.
+- Build production-grade reliability with manual ACK/NACK, dead-letter
+  queues, and retry-with-backoff patterns.
+- Compare Kafka, RabbitMQ, JMS, and cloud Pub/Sub systems and justify a
+  choice for a given workload, not from familiarity but from trade-offs.
+
+## PREREQUISITES
+
+Book 8 (Microservices + Spring Cloud), especially Chapter 5 (Sagas) and
+Chapter 6 (the Transactional Outbox pattern) — this book goes deep into
+the broker mechanics that the Outbox pattern's "relay" step and
+choreographed Sagas' events depend on, which Book 8 deliberately used
+without requiring broker-specific knowledge.
+
+## SKILL MAP (Master Skill Matrix, Rows 15-16)
+
+| Level | What you should be able to do |
+|---|---|
+| Beginner | Explain what a message broker is and why async beats sync here |
+| Intermediate | Produce/consume on Kafka and RabbitMQ, configure consumer groups/bindings |
+| Professional | Choose and tune delivery semantics correctly for a given guarantee |
+| Senior | Design DLQ/retry topologies, diagnose rebalancing and ordering bugs |
+| Lead/Architect | Choose the right messaging technology for a given org-wide architecture |
+
+---
+
+## TABLE OF CONTENTS
+
+- **Chapter 1** — Messaging Fundamentals: Why Asynchronous Communication
+- **Chapter 2** — Kafka Architecture: Topics, Partitions, Offsets
+- **Chapter 3** — Kafka Producers & Consumers, Consumer Groups
+- **Chapter 4** — Kafka Delivery Semantics & Reliability
+- **Chapter 5** — RabbitMQ Architecture: Exchanges, Queues, Routing
+- **Chapter 6** — RabbitMQ Reliability: ACK/NACK, Dead-Letter Queues, Retry
+- **Chapter 7** — JMS & Pub/Sub Models
+- **Chapter 8** — Kafka vs RabbitMQ: Choosing the Right Tool
+- **Final Assessment, Messaging Mock Interview Round, Capstone Project**
+
+## SCOPE NOTE
+
+This book covers messaging conceptually and at the Java/Spring
+integration level (Spring Kafka, Spring AMQP) — it does not cover
+Kafka/RabbitMQ cluster administration, broker deployment topology, or
+Kubernetes operators for either, which belong to Books 11-13
+(Docker/Kubernetes/Cloud). MongoDB/Redis and other NoSQL/caching
+technologies are Book 10's territory, referenced here only where a
+consumer needs idempotency-tracking storage.
+
+---
+
+*(Chapters below are added incrementally — see each chapter file in this directory.)*
