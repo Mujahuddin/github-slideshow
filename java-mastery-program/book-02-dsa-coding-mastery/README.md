@@ -43,23 +43,34 @@ Book 1 (Core Java) — especially Chapters 4 (Collections), 5 (Generics), 9-10 (
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — Arrays & Strings Fundamentals
-- **Chapter 2** — HashMap / HashSet Patterns
-- **Chapter 3** — Linked List
-- **Chapter 4** — Stack, Queue, Deque
-- **Chapter 5** — Two Pointers & Sliding Window
-- **Chapter 6** — Prefix Sum & Intervals
-- **Chapter 7** — Binary Search & Sorting
-- **Chapter 8** — Heap & Priority Queue
-- **Chapter 9** — Recursion & Backtracking
-- **Chapter 10** — Trees & BST
-- **Chapter 11** — Trie
-- **Chapter 12** — Graphs: BFS, DFS, Topological Sort
-- **Chapter 13** — Greedy Algorithms
-- **Chapter 14** — Dynamic Programming
-- **Chapter 15** — Bit Manipulation & Disjoint Set Union (DSU)
-- **Chapter 16** — Java Production Coding: LRU Cache, Rate Limiter, Producer-Consumer, Thread Pool, Retry, Idempotency
-- **Final Assessment, DSA Mock Interview Round, Capstone Project**
+- **Chapter 1** — Arrays & Strings Fundamentals ✅ `chapter-01-arrays-strings.md`
+- **Chapter 2** — HashMap / HashSet Patterns ✅ `chapter-02-hashmap-hashset-patterns.md`
+- **Chapter 3** — Linked List ✅ `chapter-03-linked-list.md`
+- **Chapter 4** — Stack, Queue, Deque ✅ `chapter-04-stack-queue-deque.md`
+- **Chapter 5** — Two Pointers & Sliding Window ✅ `chapter-05-two-pointers-sliding-window.md`
+- **Chapter 6** — Prefix Sum & Intervals ✅ `chapter-06-prefix-sum-intervals.md`
+- **Chapter 7** — Binary Search & Sorting ✅ `chapter-07-binary-search-sorting.md`
+- **Chapter 8** — Heap & Priority Queue ✅ `chapter-08-heap-priority-queue.md`
+- **Chapter 9** — Recursion & Backtracking ✅ `chapter-09-recursion-backtracking.md`
+- **Chapter 10** — Trees & BST ✅ `chapter-10-trees-bst.md`
+- **Chapter 11** — Trie ✅ `chapter-11-trie.md`
+- **Chapter 12** — Graphs: BFS, DFS, Topological Sort ✅ `chapter-12-graphs-bfs-dfs-topological-sort.md`
+- **Chapter 13** — Greedy Algorithms ✅ `chapter-13-greedy-algorithms.md`
+- **Chapter 14** — Dynamic Programming ✅ `chapter-14-dynamic-programming.md`
+- **Chapter 15** — Bit Manipulation & Disjoint Set Union (DSU) ✅ `chapter-15-bit-manipulation-dsu.md`
+- **Chapter 16** — Java Production Coding: LRU Cache, Rate Limiter, Producer-Consumer, Thread Pool, Retry, Idempotency ✅ `chapter-16-java-production-coding.md`
+- **Final Assessment, DSA Mock Interview Round, Capstone Project** ✅ `final-assessment-mock-interview-project.md`
+
+**BOOK 2 STATUS: COMPLETE.** All 16 chapters plus closing materials are
+written to the full bilingual (Telugu + English), pattern-recognition-first
+depth defined in the Master Blueprint — every chapter builds from brute
+force to optimized approach with dry runs, complexity analysis, a full
+interview question bank (Basic → Trick) with answers, mastery checkpoints,
+and a cheat sheet, explicitly cross-referencing patterns across chapters
+(e.g., Chapter 6's prefix sum feeding Chapter 14's DP, Chapter 9's
+backtracking combining with Chapter 11's Trie).
+
+Next in the program: **Book 3 — Spring Framework** (`java-mastery-program/book-03-spring-framework/`).
 
 ## THE 6 DIFFICULTY LEVELS (used throughout every chapter)
 
