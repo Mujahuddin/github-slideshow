@@ -47,15 +47,25 @@ directly parallels and extends that.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — SQL Fundamentals: Joins, Subqueries, CTEs
-- **Chapter 2** — Window Functions
-- **Chapter 3** — Indexes & Query Optimization
-- **Chapter 4** — Normalization & Schema Design
-- **Chapter 5** — ACID & Transaction Isolation Levels
-- **Chapter 6** — Locks & Deadlocks
-- **Chapter 7** — JDBC Fundamentals
-- **Chapter 8** — Production Database Troubleshooting
-- **Final Assessment, SQL/JDBC Mock Interview Round, Capstone Project**
+- **Chapter 1** — SQL Fundamentals: Joins, Subqueries, CTEs ✅ `chapter-01-sql-joins-subqueries-ctes.md`
+- **Chapter 2** — Window Functions ✅ `chapter-02-window-functions.md`
+- **Chapter 3** — Indexes & Query Optimization ✅ `chapter-03-indexes-query-optimization.md`
+- **Chapter 4** — Normalization & Schema Design ✅ `chapter-04-normalization-schema-design.md`
+- **Chapter 5** — ACID & Transaction Isolation Levels ✅ `chapter-05-acid-isolation-levels.md`
+- **Chapter 6** — Locks & Deadlocks ✅ `chapter-06-locks-deadlocks.md`
+- **Chapter 7** — JDBC Fundamentals ✅ `chapter-07-jdbc-fundamentals.md`
+- **Chapter 8** — Production Database Troubleshooting ✅ `chapter-08-production-database-troubleshooting.md`
+- **Final Assessment, SQL/JDBC Mock Interview Round, Capstone Project** ✅ `final-assessment-mock-interview-project.md`
+
+**BOOK 6 STATUS: COMPLETE.** All 8 chapters plus closing materials are
+written to the full bilingual (Telugu + English) depth template. This
+book repeatedly maps database mechanics onto Book 1/2 concepts already
+learned — B-Tree indexes as disk-durable binary search, connection
+pooling as `ThreadPoolExecutor` for connections, DB deadlock prevention
+via the same consistent lock ordering as JVM-level deadlocks — so the
+underlying reasoning transfers instead of being re-learned from scratch.
+
+Next in the program: **Book 7 — JPA + Hibernate** (`java-mastery-program/book-07-jpa-hibernate/`).
 
 ## SCOPE NOTE
 
