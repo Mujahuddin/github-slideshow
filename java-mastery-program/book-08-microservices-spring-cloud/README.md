@@ -46,15 +46,15 @@ changes when there are many of them talking to each other.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — Decomposition & Bounded Contexts
-- **Chapter 2** — Service Discovery & Config Server
-- **Chapter 3** — Inter-Service Communication & Feign
-- **Chapter 4** — Resilience Patterns: Circuit Breaker, Retry, Timeout, Bulkhead
-- **Chapter 5** — Distributed Transactions & the Saga Pattern
-- **Chapter 6** — Event-Driven Architecture & the Outbox Pattern
-- **Chapter 7** — Distributed Tracing & Observability
-- **Chapter 8** — CQRS, Scalability & High Availability
-- **Final Assessment, Microservices Mock Interview Round, Capstone Project**
+- ✅ **Chapter 1** — [Decomposition & Bounded Contexts](./chapter-01-decomposition-bounded-contexts.md)
+- ✅ **Chapter 2** — [Service Discovery & Config Server](./chapter-02-service-discovery-config-server.md)
+- ✅ **Chapter 3** — [Inter-Service Communication & Feign](./chapter-03-inter-service-communication-feign.md)
+- ✅ **Chapter 4** — [Resilience Patterns: Circuit Breaker, Retry, Timeout, Bulkhead](./chapter-04-resilience-patterns.md)
+- ✅ **Chapter 5** — [Distributed Transactions & the Saga Pattern](./chapter-05-distributed-transactions-saga.md)
+- ✅ **Chapter 6** — [Event-Driven Architecture & the Outbox Pattern](./chapter-06-event-driven-outbox-pattern.md)
+- ✅ **Chapter 7** — [Distributed Tracing & Observability](./chapter-07-distributed-tracing-observability.md)
+- ✅ **Chapter 8** — [CQRS, Scalability & High Availability](./chapter-08-cqrs-scalability-high-availability.md)
+- ✅ **[Final Assessment, Microservices Mock Interview Round, Capstone Project](./final-assessment-mock-interview-project.md)**
 
 ## SCOPE NOTE
 
@@ -66,4 +66,15 @@ referenced, not repeated.
 
 ---
 
-*(Chapters below are added incrementally — see each chapter file in this directory.)*
+## BOOK 8 STATUS: COMPLETE
+
+All 8 chapters, the final assessment, mock interview round, and capstone
+project are written. This book took the single, well-built service from
+Books 4-7 and addressed what changes once many of them talk to each
+other: bounded-context decomposition, service discovery, resilient
+inter-service calls, distributed transaction coordination via Sagas, the
+Outbox pattern for reliable event publishing, distributed tracing for
+cross-service debugging, and CQRS/scalability/HA trade-offs at an
+architect level.
+
+**Next in the program: Book 9 — Kafka + RabbitMQ + Messaging.**
