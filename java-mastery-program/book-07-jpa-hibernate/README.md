@@ -47,14 +47,24 @@ are assumed and extended here.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — Entity Lifecycle & Persistence Context
-- **Chapter 2** — Relationships & Mapping
-- **Chapter 3** — Fetching Strategies & The N+1 Problem
-- **Chapter 4** — JPQL, Native Queries, and Criteria API
-- **Chapter 5** — Locking in JPA: `@Version` and Pessimistic Annotations
-- **Chapter 6** — Second-Level Cache & Performance Optimization
-- **Chapter 7** — Common Hibernate Pitfalls & Production Patterns
-- **Final Assessment, JPA/Hibernate Mock Interview Round, Capstone Project**
+- **Chapter 1** — Entity Lifecycle & Persistence Context ✅ `chapter-01-entity-lifecycle-persistence-context.md`
+- **Chapter 2** — Relationships & Mapping ✅ `chapter-02-relationships-mapping.md`
+- **Chapter 3** — Fetching Strategies & The N+1 Problem ✅ `chapter-03-fetching-strategies-n-plus-1.md`
+- **Chapter 4** — JPQL, Native Queries, and Criteria API ✅ `chapter-04-jpql-native-criteria.md`
+- **Chapter 5** — Locking in JPA: `@Version` and Pessimistic Annotations ✅ `chapter-05-jpa-locking.md`
+- **Chapter 6** — Second-Level Cache & Performance Optimization ✅ `chapter-06-second-level-cache-performance.md`
+- **Chapter 7** — Common Hibernate Pitfalls & Production Patterns ✅ `chapter-07-hibernate-pitfalls-production-patterns.md`
+- **Final Assessment, JPA/Hibernate Mock Interview Round, Capstone Project** ✅ `final-assessment-mock-interview-project.md`
+
+**BOOK 7 STATUS: COMPLETE.** All 7 chapters plus closing materials are
+written to the full bilingual (Telugu + English) depth template. This
+book delivers on debts owed by earlier books — the full N+1 treatment
+(Ch. 3) referenced since Book 4/6, and the complete
+`LazyInitializationException` deep dive (Ch. 7) promised since Book 4
+Chapter 3 — while consistently extending Book 6's locking and Book 1's
+HashMap/hashCode material into JPA-specific mechanics.
+
+Next in the program: **Book 8 — Microservices + Spring Cloud** (`java-mastery-program/book-08-microservices-spring-cloud/`).
 
 ---
 
