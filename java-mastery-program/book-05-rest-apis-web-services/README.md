@@ -46,14 +46,25 @@ specifically into API design and the JWT/OAuth2 flows Book 4 deferred.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — HTTP & REST Fundamentals Done Right
-- **Chapter 2** — API Design: Versioning, Pagination, Filtering, Sorting
-- **Chapter 3** — JWT Deep Dive
-- **Chapter 4** — OAuth2 & OpenID Connect
-- **Chapter 5** — OpenAPI/Swagger & API Documentation as Contract
-- **Chapter 6** — API Gateway Patterns & Rate Limiting
-- **Chapter 7** — API Evolution: Backward Compatibility & Idempotency
-- **Final Assessment, REST API Mock Interview Round, Capstone Project**
+- **Chapter 1** — HTTP & REST Fundamentals Done Right ✅ `chapter-01-http-rest-fundamentals.md`
+- **Chapter 2** — API Design: Versioning, Pagination, Filtering, Sorting ✅ `chapter-02-api-design-versioning-pagination.md`
+- **Chapter 3** — JWT Deep Dive ✅ `chapter-03-jwt-deep-dive.md`
+- **Chapter 4** — OAuth2 & OpenID Connect ✅ `chapter-04-oauth2-openid-connect.md`
+- **Chapter 5** — OpenAPI/Swagger & API Documentation as Contract ✅ `chapter-05-openapi-swagger-documentation.md`
+- **Chapter 6** — API Gateway Patterns & Rate Limiting ✅ `chapter-06-api-gateway-rate-limiting.md`
+- **Chapter 7** — API Evolution: Backward Compatibility & Idempotency ✅ `chapter-07-api-evolution-compatibility-idempotency.md`
+- **Final Assessment, REST API Mock Interview Round, Capstone Project** ✅ `final-assessment-mock-interview-project.md`
+
+**BOOK 5 STATUS: COMPLETE.** All 7 chapters plus closing materials are
+written to the full bilingual (Telugu + English) depth template. This
+book consistently extends earlier books' principles to the API/network
+boundary: Book 2's idempotency keys become the standard `Idempotency-Key`
+header backed by a DB constraint (Ch. 7), Book 1's race-condition
+material extends to distributed rate limiting (Ch. 6), and Book 4's
+authentication/authorization split underlies the full JWT/OAuth2 treatment
+(Ch. 3-4).
+
+Next in the program: **Book 6 — SQL + JDBC + Databases** (`java-mastery-program/book-06-sql-jdbc-databases/`).
 
 ---
 
