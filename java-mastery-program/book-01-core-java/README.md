@@ -49,24 +49,25 @@ helps but is not required.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1 — Java Fundamentals: JDK, JRE, JVM, Bytecode, Class Loading, Memory, GC** ✅ (in this book)
-- Chapter 2 — OOP, SOLID, and Composition vs Inheritance (planned)
-- Chapter 3 — String, Immutability, and the String Pool (planned)
-- Chapter 4 — Collections Framework and `HashMap` Internals (planned)
-- Chapter 5 — Generics and Type Safety (planned)
-- Chapter 6 — Exception Handling Done Right (planned)
-- Chapter 7 — Java 8: Lambdas, Functional Interfaces, Streams, Optional (planned)
-- Chapter 8 — Java 11/17: `var`, Records, Sealed Classes, Text Blocks (planned)
-- Chapter 9 — Multithreading and Concurrency Fundamentals (planned)
-- Chapter 10 — Concurrency Toolkit: `ExecutorService`, `CompletableFuture`, Atomics (planned)
-- Chapter 11 — JVM Performance and Tuning (planned)
-- Final Assessment, Mock Interview (Core Java Round), Project Assignment (planned)
+- **Chapter 1** — Java Fundamentals: JDK, JRE, JVM, Bytecode, Class Loading, Memory, GC ✅ `chapter-01-java-fundamentals-jvm.md`
+- **Chapter 2** — OOP, SOLID, and Composition vs Inheritance ✅ `chapter-02-oop-solid.md`
+- **Chapter 3** — String, Immutability, and the String Pool ✅ `chapter-03-string-immutability.md`
+- **Chapter 4** — Collections Framework and `HashMap` Internals ✅ `chapter-04-collections-hashmap-internals.md`
+- **Chapter 5** — Generics and Type Safety ✅ `chapter-05-generics.md`
+- **Chapter 6** — Exception Handling Done Right ✅ `chapter-06-exception-handling.md`
+- **Chapter 7** — Java 8: Lambdas, Functional Interfaces, Streams, Optional ✅ `chapter-07-java8-streams-lambdas-optional.md`
+- **Chapter 8** — Java 11/17: `var`, Records, Sealed Classes, Text Blocks ✅ `chapter-08-java11-17-modern-features.md`
+- **Chapter 9** — Multithreading and Concurrency Fundamentals ✅ `chapter-09-multithreading-concurrency-fundamentals.md`
+- **Chapter 10** — Concurrency Toolkit: `ExecutorService`, `CompletableFuture`, Atomics ✅ `chapter-10-concurrency-toolkit.md`
+- **Chapter 11** — JVM Performance and Tuning ✅ `chapter-11-jvm-performance-tuning.md`
+- **Final Assessment, Mock Interview (Core Java Round), Capstone Project** ✅ `final-assessment-mock-interview-project.md`
 
-> **Note on delivery:** Given the depth required per chapter (every chapter follows
-> the full 21-point teaching template plus 6-part mastery checkpoints), this book is
-> being delivered chapter-by-chapter. Chapter 1 is complete below. Remaining chapters
-> follow the identical structure and will be added in subsequent commits.
+**BOOK 1 STATUS: COMPLETE.** All 11 chapters plus closing materials are
+written to the full bilingual (Telugu + English), zero-to-architect depth
+template defined in the Master Blueprint — every chapter includes the
+CONCEPT/TELUGU/TERMINOLOGY/ENGLISH-ANSWER/SIMPLE/REAL-TIME structure,
+worked code with line-by-line explanation, common mistakes, a full
+interview question bank (Basic → Trick) with answers, chapter mastery
+checkpoints, and a cheat sheet.
 
----
-
-*(See `chapter-01-java-fundamentals-jvm.md` in this directory.)*
+Next in the program: **Book 2 — DSA + Coding Mastery** (`java-mastery-program/book-02-dsa-coding-mastery/`).
