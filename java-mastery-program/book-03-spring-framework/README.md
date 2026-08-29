@@ -46,12 +46,23 @@ basics for singleton thread-safety).
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — IoC Container & Dependency Injection
-- **Chapter 2** — Bean Configuration Styles & the Container
-- **Chapter 3** — Bean Scopes & Lifecycle
-- **Chapter 4** — Aspect-Oriented Programming (AOP)
-- **Chapter 5** — Events, Environment/Profiles, Testing the Container
-- **Final Assessment, Spring Core Mock Interview Round, Capstone Project**
+- **Chapter 1** — IoC Container & Dependency Injection ✅ `chapter-01-ioc-dependency-injection.md`
+- **Chapter 2** — Bean Configuration Styles & the Container ✅ `chapter-02-bean-configuration-styles.md`
+- **Chapter 3** — Bean Scopes & Lifecycle ✅ `chapter-03-bean-scopes-lifecycle.md`
+- **Chapter 4** — Aspect-Oriented Programming (AOP) ✅ `chapter-04-aspect-oriented-programming.md`
+- **Chapter 5** — Events, Environment/Profiles, Testing the Container ✅ `chapter-05-events-environment-testing.md`
+- **Final Assessment, Spring Core Mock Interview Round, Capstone Project** ✅ `final-assessment-mock-interview-project.md`
+
+**BOOK 3 STATUS: COMPLETE.** All 5 chapters plus closing materials are
+written to the full bilingual (Telugu + English) depth template — each
+chapter includes worked code, common mistakes, a full interview question
+bank with answers, mastery checkpoints, and a cheat sheet. Special
+emphasis throughout on the two costliest real-world Spring gotchas: the
+self-invocation AOP proxy bypass (Chapter 4) and singleton-plus-mutable-
+state race conditions (Chapter 3), both tied back to Book 1's concurrency
+material.
+
+Next in the program: **Book 4 — Spring Boot** (`java-mastery-program/book-04-spring-boot/`).
 
 ## WHY THIS BOOK IS SHORTER THAN BOOKS 1-2
 
