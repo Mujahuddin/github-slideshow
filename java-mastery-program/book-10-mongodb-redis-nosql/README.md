@@ -52,15 +52,15 @@ referenced directly.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — NoSQL Fundamentals: Why Not Always Relational
-- **Chapter 2** — MongoDB Document Model & Schema Design
-- **Chapter 3** — MongoDB Querying & the Aggregation Pipeline
-- **Chapter 4** — MongoDB Indexing & Performance
-- **Chapter 5** — MongoDB Replication & Sharding
-- **Chapter 6** — Redis Data Structures & Use Cases
-- **Chapter 7** — Redis Caching Patterns & Pitfalls
-- **Chapter 8** — Choosing the Right Data Store: Polyglot Persistence
-- **Final Assessment, NoSQL Mock Interview Round, Capstone Project**
+- ✅ **Chapter 1** — [NoSQL Fundamentals: Why Not Always Relational](./chapter-01-nosql-fundamentals.md)
+- ✅ **Chapter 2** — [MongoDB Document Model & Schema Design](./chapter-02-mongodb-document-model-schema-design.md)
+- ✅ **Chapter 3** — [MongoDB Querying & the Aggregation Pipeline](./chapter-03-mongodb-querying-aggregation-pipeline.md)
+- ✅ **Chapter 4** — [MongoDB Indexing & Performance](./chapter-04-mongodb-indexing-performance.md)
+- ✅ **Chapter 5** — [MongoDB Replication & Sharding](./chapter-05-mongodb-replication-sharding.md)
+- ✅ **Chapter 6** — [Redis Data Structures & Use Cases](./chapter-06-redis-data-structures-use-cases.md)
+- ✅ **Chapter 7** — [Redis Caching Patterns & Pitfalls](./chapter-07-redis-caching-patterns-pitfalls.md)
+- ✅ **Chapter 8** — [Choosing the Right Data Store: Polyglot Persistence](./chapter-08-choosing-right-data-store-polyglot-persistence.md)
+- ✅ **[Final Assessment, NoSQL Mock Interview Round, Capstone Project](./final-assessment-mock-interview-project.md)**
 
 ## SCOPE NOTE
 
@@ -75,4 +75,17 @@ Redis (key-value/cache), the two the master skill matrix names explicitly.
 
 ---
 
-*(Chapters below are added incrementally — see each chapter file in this directory.)*
+## BOOK 10 STATUS: COMPLETE
+
+All 8 chapters, the final assessment, mock interview round, and
+capstone project are written. This book treated NoSQL as a trade-off
+rather than an upgrade over Book 6's relational model, covering
+MongoDB's document model/schema design/querying/indexing/replication-
+sharding (each concept explicitly mapped back to a relational
+equivalent from Book 6 or a distributed-systems equivalent from Books 8-9),
+Redis's data structures and caching patterns (with pitfalls tied to
+Book 7's second-level cache staleness problem), and closed with a
+polyglot persistence decision framework mirroring Book 9's Kafka-vs-
+RabbitMQ approach.
+
+**Next in the program: Book 11 — Docker.**
