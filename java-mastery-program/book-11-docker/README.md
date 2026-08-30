@@ -49,15 +49,15 @@ needs to run alongside application containers.
 
 ## TABLE OF CONTENTS
 
-- **Chapter 1** — Containerization Fundamentals: Containers vs VMs
-- **Chapter 2** — Dockerfile Authoring & Image Layers
-- **Chapter 3** — Multi-Stage Builds & Image Optimization
-- **Chapter 4** — Docker Networking
-- **Chapter 5** — Docker Volumes & Data Persistence
-- **Chapter 6** — Docker Compose: Multi-Container Applications
-- **Chapter 7** — Container Security & Production Best Practices
-- **Chapter 8** — Container Registries, CI/CD & The Path to Kubernetes
-- **Final Assessment, Docker Mock Interview Round, Capstone Project**
+- ✅ **Chapter 1** — [Containerization Fundamentals: Containers vs VMs](./chapter-01-containerization-fundamentals.md)
+- ✅ **Chapter 2** — [Dockerfile Authoring & Image Layers](./chapter-02-dockerfile-authoring-image-layers.md)
+- ✅ **Chapter 3** — [Multi-Stage Builds & Image Optimization](./chapter-03-multi-stage-builds-image-optimization.md)
+- ✅ **Chapter 4** — [Docker Networking](./chapter-04-docker-networking.md)
+- ✅ **Chapter 5** — [Docker Volumes & Data Persistence](./chapter-05-docker-volumes-data-persistence.md)
+- ✅ **Chapter 6** — [Docker Compose: Multi-Container Applications](./chapter-06-docker-compose-multi-container-applications.md)
+- ✅ **Chapter 7** — [Container Security & Production Best Practices](./chapter-07-container-security-production-best-practices.md)
+- ✅ **Chapter 8** — [Container Registries, CI/CD & The Path to Kubernetes](./chapter-08-container-registries-cicd-path-to-kubernetes.md)
+- ✅ **[Final Assessment, Docker Mock Interview Round, Capstone Project](./final-assessment-mock-interview-project.md)**
 
 ## SCOPE NOTE
 
@@ -71,4 +71,18 @@ are Book 14's dedicated territory (Git/Maven/Gradle/CI-CD/Terraform).
 
 ---
 
-*(Chapters below are added incrementally — see each chapter file in this directory.)*
+## BOOK 11 STATUS: COMPLETE
+
+All 8 chapters, the final assessment, mock interview round, and
+capstone project are written. This book took the individually-designed
+services from Book 8 and packaged them into deployable containers:
+containerization fundamentals corrected against the "lightweight VM"
+misconception, Dockerfile authoring and layer-caching discipline,
+multi-stage builds for minimal production images, networking and
+volumes for correct inter-service communication and data persistence,
+Compose for local multi-container orchestration mirroring Books 8-10's
+stack, and production security/registry/CI-CD practices — closing by
+explicitly naming the multi-host orchestration gaps Book 12's
+Kubernetes exists to fill.
+
+**Next in the program: Book 12 — Kubernetes.**
